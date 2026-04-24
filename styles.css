@@ -44,12 +44,12 @@ header {
 nav {
     text-align: center;             
     padding: 1rem;                  
-    background-color: #1b1f1b;    
+    background-color: #1b1b1f;    
 }
 
 /*navigation links for the menu bar*/
 nav a {
-    color: #c2b280;
+    color: #80abc2;
     margin: 0 1rem;
     text-decoration: none;
     font-weight: bold;
@@ -66,7 +66,7 @@ section {
     text-align: center;
     margin-top: 2rem;
     padding: 1.5rem;
-    background-color: #242924;
+    background-color: #242629;
     border-radius: 8px;
 }
 
@@ -76,27 +76,27 @@ section {
     width: 100%;
     max-width: 850px;
     height: auto;
-    border: 1px solid #6b8e23;
+    border: 1px solid #23288e;
 }
 
 .caption {
     font-size: 0.9rem;
-    color: #c2b280;
+    color: #80a5c2;
     margin-top: 0.75rem;
     font-style: italic;
 }
 
 /*cards for individual blocks*/
 .card {
-    background-color: #2e3b2e;
+    background-color: #2e353b;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
-    border-left: 4px solid #6b8e23;
+    border-left: 4px solid #23288e;
 }
 
 /*headers v2 colors*/
 h2 {
-    color: #6b8e23;
+    color: #23288e;
 }
 
 /*image section*/
