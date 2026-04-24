@@ -1,0 +1,142 @@
+/*main page/body*/
+body {
+    margin: 0;                          
+    font-family: Arial, sans-serif;
+    background-color: #1b1f1b;
+    color: #e5e5d8;
+}
+
+/*headers v1*/
+header {
+    background-color: #2e3b2e;
+    padding: 3rem 2rem; /* Increased padding for a larger header feel */
+    border-bottom: 2px solid #6b8e23;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* Increased gap for the larger logo */
+}
+
+.header-logo {
+    height: 120px; /* Increased from 80px to make UD logo bigger */
+    width: auto;
+    margin: 0;
+}
+
+.header-text {
+    text-align: left;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Slightly larger text to match larger logo */
+}
+
+.header-text p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/*menu bar!*/
+nav {
+    text-align: center;             
+    padding: 1rem;                  
+    background-color: #1b1f1b;    
+}
+
+/*navigation links for the menu bar*/
+nav a {
+    color: #c2b280;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*sections*/
+section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+.main-visual {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #242924;
+    border-radius: 8px;
+}
+
+.large-stack-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    border: 1px solid #6b8e23;
+}
+
+.caption {
+    font-size: 0.9rem;
+    color: #c2b280;
+    margin-top: 0.75rem;
+    font-style: italic;
+}
+
+/*cards for individual blocks*/
+.card {
+    background-color: #2e3b2e;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #6b8e23;
+}
+
+/*headers v2 colors*/
+h2 {
+    color: #6b8e23;
+}
+
+/*image section*/
+img {
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+.tech-list {
+    list-style: none;
+    padding: 0;
+}
+
+.tech-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Increased spacing */
+    font-size: 1.1rem;
+}
+
+.tech-list img {
+    width: 40px; /* Increased from 25px for better visibility */
+    height: 40px; /* Force square ratio for icons */
+    margin-right: 20px;
+    margin-top: 0;
+    object-fit: contain; /* Prevents stretching */
+    background-color: rgba(255, 255, 255, 0.05); /* Optional: subtle backing to pop icons */
+    border-radius: 4px;
+}
+
+/*custom layout for team members*/
+.team {
+    display: flex;                      
+    justify-content: space-between;    /*spread out team members on site*/
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2e3b2e;
+    border-top: 2px solid #6b8e23;
+}
