@@ -2,15 +2,15 @@
 body {
     margin: 0;                          
     font-family: Arial, sans-serif;
-    background-color: #1b1f1b;
+    background-color: #1b1f36;
     color: #e5e5d8;
 }
 
 /*headers v1*/
 header {
-    background-color: #2e3b2e;
+    background-color: #616ab0;
     padding: 3rem 2rem; /* Increased padding for a larger header feel */
-    border-bottom: 2px solid #6b8e23;
+    border-bottom: 2px solid #355eb0;
 }
 
 .header-container {
