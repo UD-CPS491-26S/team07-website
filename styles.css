@@ -2,13 +2,13 @@
 body {
     margin: 0;                          
     font-family: Arial, sans-serif;
-    background-color: #1b1f36;
+    background-color: #141414;
     color: #e5e5d8;
 }
 
 /*headers v1*/
 header {
-    background-color: #616ab0;
+    background-color: #0b68d3;
     padding: 3rem 2rem; /* Increased padding for a larger header feel */
     border-bottom: 2px solid #355eb0;
 }
@@ -91,12 +91,12 @@ section {
     background-color: #2e353b;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
-    border-left: 4px solid #23288e;
+    border-left: 4px solid #0b68d3;
 }
 
 /*headers v2 colors*/
 h2 {
-    color: #23288e;
+    #0b68d3
 }
 
 /*image section*/
@@ -137,6 +137,5 @@ img {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #616ab0;
-    border-top: 2px solid #355eb0;
+    background-color: #0b68d3;
 }
