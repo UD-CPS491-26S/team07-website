@@ -10,7 +10,6 @@ body {
 header {
     background-color: #0b68d3;
     padding: 3rem 2rem; /* Increased padding for a larger header feel */
-    border-bottom: 2px solid #355eb0;
 }
 
 .header-container {
