@@ -65,6 +65,7 @@ section {
   width: 100%;        /* or a fixed size like 200px */
   height: 200px;      /* fixed height forces uniformity */
   object-fit: cover;  /* crops to fill without distorting */
+  padding: 16px;
 }
 
 .main-visual {
