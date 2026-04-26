@@ -61,11 +61,17 @@ section {
     margin: auto;
 }
 
+.team-card {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 .team-card img {
   width: 100%;        /* or a fixed size like 200px */
   height: 200px;      /* fixed height forces uniformity */
   object-fit: cover;  /* crops to fill without distorting */
-  padding: 16px;
 }
 
 .main-visual {
