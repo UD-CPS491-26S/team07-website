@@ -74,6 +74,63 @@ section {
   object-fit: cover;  /* crops to fill without distorting */
 }
 
+#sponsor .section-label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 1.25rem;
+}
+
+.sponsor-card {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.sponsor-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.sponsor-info h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 4px;
+}
+
+.sponsor-role {
+  font-size: 13px;
+  color: #888;
+  margin: 0 0 12px;
+}
+
+.sponsor-divider {
+  border-top: 1px solid #e5e5e5;
+  margin-bottom: 12px;
+}
+
+.sponsor-bio {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #555;
+  margin: 0 0 12px;
+}
+
+.sponsor-link {
+  font-size: 13px;
+  color: #2563eb;
+  text-decoration: none;
+}
+
 .main-visual {
     text-align: center;
     margin-top: 2rem;
