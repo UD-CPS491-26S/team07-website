@@ -69,7 +69,7 @@ section {
 }
 
 .team-card img {
-  width: 100%;        
+  width: 100px;        
   height: 200px;      
   object-fit: cover;  
 }
